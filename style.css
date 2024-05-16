@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #070023;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.snowflake {
+  position: absolute;
+  animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+  from {
+    transform: translateY(-10vh);
+  }
+  
+  to {
+    transform: translateY(110vh);
+  }
+}
